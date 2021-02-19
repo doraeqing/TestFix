@@ -1,0 +1,1300 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0096B5A8BA8E4F2BFD8839D0FE7CD696 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 70382D87C4813180676A318D92AE2031 /* MASLayoutConstraint.m */; };
+		034644ABD17DA16F3375BFF22DB2D9C3 /* YTXMFStack.h in Headers */ = {isa = PBXBuildFile; fileRef = 32EC53F42F4F33F7ABDFD96BB2E66BD2 /* YTXMFStack.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		04CCCF9751076768D95F8CEF69FCFF98 /* MFDeclarationModifier.h in Headers */ = {isa = PBXBuildFile; fileRef = 79B3C6F48A1328D2486FBADB43A0E3E2 /* MFDeclarationModifier.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		06BE9FE5D22C3106ADF3340FD3C7A199 /* mango.l in Sources */ = {isa = PBXBuildFile; fileRef = 64B91A922C4D8A50E40825FBDF415367 /* mango.l */; };
+		06EC8D16A8EEEF9D523E515706D8F50B /* ffi.h in Headers */ = {isa = PBXBuildFile; fileRef = D4DD2835A24A5342972809DD57916F36 /* ffi.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0966C8D06BC958F186D2541E69DDE6F3 /* YTXMFPropertyMapTable.m in Sources */ = {isa = PBXBuildFile; fileRef = BBA3163C454D27DE537C7A5DC5B22F2C /* YTXMFPropertyMapTable.m */; };
+		09867FE26D37E59BD5F9AF01A27F1EC8 /* YTXMangoFix.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C7AA87795BB9385814B85C230637AFF /* YTXMangoFix.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0D0D4218B8A8904F38BA0C5A70CE7CAE /* YTXMFWeakPropertyBox.h in Headers */ = {isa = PBXBuildFile; fileRef = B6CFCFC1D72A2F8D359E2A55DD1055DF /* YTXMFWeakPropertyBox.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		115ACCE253A886181B55773DDC70D6ED /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 36E16C19EE53C3530D2452B0A61DEB2C /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1170882989CFF931BB890A852B60D358 /* YTXMFBlockBody.h in Headers */ = {isa = PBXBuildFile; fileRef = FC465E9DB205816A6199B97339950479 /* YTXMFBlockBody.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1845C85C57DFF48059C4AF9773B419F7 /* YTXMFTypeSpecifier.m in Sources */ = {isa = PBXBuildFile; fileRef = D77274EBA1330162F3C81005C6060B66 /* YTXMFTypeSpecifier.m */; };
+		1AA20452989F0F39709271615DDF85B5 /* MangoFix-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E7DD184B5FEC756B0FDEE152B12E9D3 /* MangoFix-dummy.m */; };
+		1E5D56FF58658F9F45723CA2940489EE /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = FB979AA0B57BF87AA21F39085D7A0863 /* MASConstraintMaker.m */; };
+		1EB90C612237C1C676A61B8927492C72 /* YTXMFTypeSpecifier.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F7C8BEBE6424DFF12EC86873CAF27EE /* YTXMFTypeSpecifier.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2294636E799926C443828131C14FA864 /* ffitarget_arm.h in Headers */ = {isa = PBXBuildFile; fileRef = 0807402379DCEFFC6E99EC80502B84AC /* ffitarget_arm.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		27CE8CE87785A370A55B201694068B95 /* YTXMFFunctionDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = 99898E415EBCD5505001081705B6F4D2 /* YTXMFFunctionDefinition.m */; };
+		2B8A2F116C33F34BB9B16DED029E5ABE /* YTXMFClassDefinition.h in Headers */ = {isa = PBXBuildFile; fileRef = 04E27F54B20D93EBC9320D04A36986B4 /* YTXMFClassDefinition.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		350AA5139A4E0C414BE18A30066F6CF3 /* YTXMFMethodMapTable.h in Headers */ = {isa = PBXBuildFile; fileRef = 35FF64089DF19BD4D128547779C2D6C2 /* YTXMFMethodMapTable.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		380A25AB15969D92F2B15BB0E0493B82 /* util.h in Headers */ = {isa = PBXBuildFile; fileRef = E72A3BFD0E0BC2FA7FAB4B6D44EA8486 /* util.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3EC5B53FBD8090001AC882116C719FB4 /* YTXMFVarDeclareChain.h in Headers */ = {isa = PBXBuildFile; fileRef = EA909F7B76DBD1105027CA455B9075AF /* YTXMFVarDeclareChain.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4140A03E141E8E382D6978AD7B9090AE /* YTXMFStatementResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FE3360C2EA4356ADA57BC687FB3E5F /* YTXMFStatementResult.m */; };
+		42947699890A199B08A896144A878D80 /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 03BCEF40CEDA6235CDB6A5EC72E10943 /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		46692A2E77157B00827182C8DC686F72 /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BC1FAE218BCDC598852B82759F90F37 /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		470BCD4CE4D748F9B00BBBB7D4D1CCB5 /* YTXMFDeclaration.m in Sources */ = {isa = PBXBuildFile; fileRef = 94BB4936C3903C3C671F7F8402E5F8FD /* YTXMFDeclaration.m */; };
+		4CE091F886EC6324673EFE0AEBBEA0FE /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AE4575D2E7B82B24B3E7A2BAB555BC8 /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4EAF7EB7BD5AE1F75C592A4FC244FBDD /* YTXMFBlock.h in Headers */ = {isa = PBXBuildFile; fileRef = DA547C87D237C3A36B13FDF2A973A08F /* YTXMFBlock.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		523B6904B9B85EB9858C52BBAEDFECC0 /* YTXMFTypedefTable.h in Headers */ = {isa = PBXBuildFile; fileRef = C07E06F2B245797E24CC536E706DF3FF /* YTXMFTypedefTable.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		54E44F63587A53E945E36ACBDCE51BBF /* YTXMFStaticVarTable.h in Headers */ = {isa = PBXBuildFile; fileRef = E92738F14832F080C405F487F598724A /* YTXMFStaticVarTable.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		55A765019AB30D65AAF7EEA3DEFED965 /* create.m in Sources */ = {isa = PBXBuildFile; fileRef = B57182B5C1D75C55B817EC495EAC3443 /* create.m */; };
+		572D05B146EAA3EF5530A0D0E34904A0 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 763973A817A3DD2E779E068D8D22C261 /* MASViewConstraint.m */; };
+		59EA578EED8BAC126FDC60C32AE11521 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F209D6BEA5F26E69D2D82DC2D8F1450C /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		5CB451DC3C8CAB34BAEFB26F55FA4EB5 /* YTXMFPropertyMapTable.h in Headers */ = {isa = PBXBuildFile; fileRef = 78023E2C5C4477303F83F165978688B9 /* YTXMFPropertyMapTable.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5F52DD73F6CE2FC34910DF5979FD991A /* execute.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EA4DCE5B2F9655F6D55ECFA5A678986 /* execute.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		607FA4510A8B50AE1962AF38FEE45F3B /* ffi_x86_64.h in Headers */ = {isa = PBXBuildFile; fileRef = 87F9A9BB6D740E49000C1C43CD06397C /* ffi_x86_64.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		61081D98AF51FA65E3CB7E46C7C1E84C /* eval.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C0783920C78E22312DECF2FE77106A /* eval.m */; };
+		62F49E4516A4D6ED7FC3F9EA91871630 /* YTXMFValue.h in Headers */ = {isa = PBXBuildFile; fileRef = CFB2CB849F42AA2088CFA9CB245FB390 /* YTXMFValue.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		632459AD839A6B80C960CE82DB6E96EA /* mango.y in Sources */ = {isa = PBXBuildFile; fileRef = 71E4AFDE84C071098535CCF8115E681A /* mango.y */; };
+		63F87C318437740E8202E4D3DD0826FA /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 15D445BD75CD55EF7D5DCC4EFCD46F0A /* MASCompositeConstraint.m */; };
+		65E88072A2BDC576BFC85E67EF9FBBC6 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = C1DE9C1F390E83996DED64E8A4C02256 /* MASUtilities.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6A58F7B2D5791D1E335A4BB3D0BC1E20 /* create.h in Headers */ = {isa = PBXBuildFile; fileRef = 63F612DF1149395EF61A9790BE0680DB /* create.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6C1C7FDB8BBBD440BF9F539BB37BDE45 /* YTXMFScopeChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC003B29767256E62E389CE3E3324E8 /* YTXMFScopeChain.m */; };
+		6C21AC39732FF58F74C78A7EB596E55F /* YTXMFInterpreter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E72F93BE0F6C2207D10F3D4397B8785 /* YTXMFInterpreter.m */; };
+		7059CFA47841A7347552370118690B72 /* Pods-MangoFixDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CAEBD51D49930A8E11BEB62B33302AC /* Pods-MangoFixDemo-dummy.m */; };
+		740D6D43778E7B106A520A3612974161 /* errror.m in Sources */ = {isa = PBXBuildFile; fileRef = E78B0F0E0250AAE0AFEE45BD8206D34B /* errror.m */; };
+		7582B696DD2FAF82B2B7A3B7BF536097 /* YTXMFTypedefTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 1932F89AC0F720DEFC43257B063FD073 /* YTXMFTypedefTable.m */; };
+		7CF2AC7A3B3ED03B30C1E4ED662B0551 /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 204CF7AA2615637C9C6C565EB66C1A02 /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7DACF78649490D0EF915C99EDAFB0B67 /* YTXMFStructDeclare.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A0461A4B6B4730FC8C053E71E88A9D0 /* YTXMFStructDeclare.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7E68E2EDFAD7AA1C1B8CA06B636333A5 /* ffi_arm.h in Headers */ = {isa = PBXBuildFile; fileRef = 5281D191515774EE9A3A8919747351A4 /* ffi_arm.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		81F811A56B6724F7E8E2D25364E595E3 /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 9123F7E42FE54500B39C2272810C3F2E /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		857A90144B6CDD7CBD0978FBF1BD13EF /* YTXMFDeclaration.h in Headers */ = {isa = PBXBuildFile; fileRef = CED8E88D1DFB330744E7703D3017DF72 /* YTXMFDeclaration.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		85958191554A05045F18E8B6D7768D00 /* YTXMFStatementResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C98CF6220523D0C5E18924C782D6E59 /* YTXMFStatementResult.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		87592E5630F602C5D8C021D76A2CAF49 /* YTXMFValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D180A21DC8B01C96FB842AD1C90137A /* YTXMFValue.m */; };
+		88276688339C17ABE796C29AB7424F1F /* YTXMFClassDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = 46683BE5F2DB5A5F1A8861D1ACCE5DC3 /* YTXMFClassDefinition.m */; };
+		8F5C8031969363CF961254AB45075F94 /* YTXMFWeakPropertyBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 685E661A0617A616CA2FA52F422CD021 /* YTXMFWeakPropertyBox.m */; };
+		9194B58ACE900ED6BAE6AD92E24A2CFF /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = CB067D877F3F73202A79A01B111EA84F /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		92BF70E9D3285561EB404A7C4A4A6DEE /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 342885B17E313284ED60E95EA2A4120D /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		96E0387B0683C11DA34CF8A96028B002 /* YTXMFStructDeclareTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 210CB3D5DDC2201E60423AAC4ED894E5 /* YTXMFStructDeclareTable.m */; };
+		97777C8349288EC0BB778F8D5C10EE72 /* ffitarget.h in Headers */ = {isa = PBXBuildFile; fileRef = B786B645A7E02C89FC2E443E18836A3A /* ffitarget.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		98F0910C2DB5FB6CC47240BCADC788EB /* YTXMFBlockBody.m in Sources */ = {isa = PBXBuildFile; fileRef = C76FB9AB96DAEB3F5B273CC8194126F4 /* YTXMFBlockBody.m */; };
+		9C8AE116DF10AA83D39F671917C485FF /* YTXMFBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = F31AEF21465F8A2F5FFC1F58486D817F /* YTXMFBlock.m */; };
+		9DE36122416411457D84768D165D0F4A /* errror.h in Headers */ = {isa = PBXBuildFile; fileRef = 783B3A6D875B748CCAA5BCFADC933D3E /* errror.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9EFCE4E26F94BBEDFCDD4C7FACEF204F /* ffi_i386.h in Headers */ = {isa = PBXBuildFile; fileRef = 13C1077FA669417D6965C08689D4B344 /* ffi_i386.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A19B15424ADF00C9A7DD821D2F267BAF /* ffitarget_arm64.h in Headers */ = {isa = PBXBuildFile; fileRef = 3552B4ACDB66572CA66F98286CBB8B27 /* ffitarget_arm64.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A3307B8FB6EE0A049DBAE3AA4D2C6DA0 /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 04C2336DEA05A2C4A841062917BA3860 /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A57340523839B1F44443DB5A2A71502C /* YTXMFFunctionDefinition.h in Headers */ = {isa = PBXBuildFile; fileRef = 01F9D7CAB334B23E17B62B25B3AC9934 /* YTXMFFunctionDefinition.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A663A0776A36140C4D7FD36683DE502B /* execute.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC4E971316C375CE56C7BDE74ACAAD5 /* execute.m */; };
+		A84315D7EB2725CC173494674D507E49 /* YTXMFScopeChain.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F69CA3B3F88C7206B1C25AAE7B43722 /* YTXMFScopeChain.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A893FFB0F9137E298D6752729850D1D6 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = A43F42A8549801FB02FB0EADFC002640 /* MASViewAttribute.m */; };
+		AB3EE6BCC7C067A5A45461F39A75D088 /* built-in.m in Sources */ = {isa = PBXBuildFile; fileRef = B2BDACC54FEECF3258F54E79E1FCDCCF /* built-in.m */; };
+		B024A0B0EF33CBBD90FC9B550EAFB92C /* symdl.h in Headers */ = {isa = PBXBuildFile; fileRef = DBF77FBB04469A3C7A3678FE71A88838 /* symdl.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B03A12233DF702D024BDFAB5EEC603D0 /* YTXMFRSA.h in Headers */ = {isa = PBXBuildFile; fileRef = A3423DA837AE67B27ECE4D9C71711421 /* YTXMFRSA.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B0FBD2BA27A0795737C2CCD79FFA166B /* YTXMFMethodMapTable.m in Sources */ = {isa = PBXBuildFile; fileRef = C3EEBAF860068BB5FEE7AC14209FA010 /* YTXMFMethodMapTable.m */; };
+		B20A0E5D8F9BCED1A82793C4BE9E7258 /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = DF3300F77901BE6A01183C24B8FF4812 /* Masonry.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B3C2BA37EEE59032DFF47E5AB4BFCF49 /* YTXMFValue+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 73316C938A241F6AFE9E6157263DE7AB /* YTXMFValue+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B40FD60442FEA077A3A48DF0ED13D884 /* YTXMFStaticVarTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 69B87C7C49D6C99DE32D243CEEF004B6 /* YTXMFStaticVarTable.m */; };
+		B4D410CC31ED9C9674A20C50AE2FE983 /* YTXMFStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F6A0B293297A3F107D779C3BB9B5532 /* YTXMFStack.m */; };
+		B7A1C36FE202FE88D063F519B250B355 /* YTXMFVarDeclareChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2BDC406259B9A6E098CF6694750BE8 /* YTXMFVarDeclareChain.m */; };
+		B946AFB1A725D85E07F645A7EF086383 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = BA7754EE6A31C15FF9C2B223553473C8 /* NSArray+MASAdditions.m */; };
+		BBD2F3023FDE2667D706BDD6D5E2BDB8 /* YTXMFExpression.m in Sources */ = {isa = PBXBuildFile; fileRef = 464ACCAA0485DF77FFE2814CC784BF6A /* YTXMFExpression.m */; };
+		BDF6C9F4858E5267382503B5797F736A /* YTXMFInterpreter.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A642DCB3A2EA8FE8279447B091C819A /* YTXMFInterpreter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BE1EB6FA3E32DD0AD8EE2A6C8901DAFC /* YTXMFContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E99BF21E4C3A3495C155BE0182E1F01 /* YTXMFContext.m */; };
+		C0289F7D8D9E43FDFC9A50341E54C792 /* YTXMFStatement.h in Headers */ = {isa = PBXBuildFile; fileRef = 806B6E4E4B4AB8FD4277961ECE4E0186 /* YTXMFStatement.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C05FC6699632FE712174ED875A605410 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F8DB7E2E10AFCC0F19F7F6B4FB1B888F /* ViewController+MASAdditions.m */; };
+		C74D2E856ADC8139CD00DBD184061B23 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E3215F62F121FDBA7FB5D6F94C5900E /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C7920681F0164686C56327ED3C6AAC58 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F148248BB911944EF2DB8EB80D097F84 /* View+MASAdditions.m */; };
+		D3147C403D806529695298F272873EDE /* ffitarget_x86_64.h in Headers */ = {isa = PBXBuildFile; fileRef = 10FF56EBD93AC746678C2BEF63D6F9ED /* ffitarget_x86_64.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D493667130F7BF481C14E205576260D5 /* ffi_arm64.h in Headers */ = {isa = PBXBuildFile; fileRef = 02E6E208A0EE89F1FF05AD81D07C07B4 /* ffi_arm64.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D5F512A23A6DB0A6DBD87009B76C94E5 /* YTXMFExpression.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BDB52EC9F588796E8EFFD24FB92C89D /* YTXMFExpression.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D72EE0E749232B2C899702FC1C9402BB /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A27EEE16B2A9B26C58E4119E5FC2AFD /* Masonry-dummy.m */; };
+		DC0ADC48F82A665A57E30EF2EEE3880F /* YTXMFStructDeclare.m in Sources */ = {isa = PBXBuildFile; fileRef = 007A8BF6498FAEC85DB330839E8C35A3 /* YTXMFStructDeclare.m */; };
+		E372605D7AB188609AE65791FD26B60C /* YTXMFContext.h in Headers */ = {isa = PBXBuildFile; fileRef = 5ABB1EC61A853B1D48B2BC91E4FA90D8 /* YTXMFContext.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E3F8FD8197815CF3E30B1FA3031F7A77 /* ffitarget_i386.h in Headers */ = {isa = PBXBuildFile; fileRef = A4F355B5B755ECDA4049F5FA3F26B50B /* ffitarget_i386.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E543B2267F83C4ED47CD1DA9B40268AD /* mf_ast.h in Headers */ = {isa = PBXBuildFile; fileRef = FF88BED95EAFA174B8D6839874F8AA2E /* mf_ast.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E76935CFF4AF327F8D9A7C1935F7D900 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = DE36E8A826A796027B6920FFA92C290E /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E9FE086E354082AE120747F979112927 /* util.m in Sources */ = {isa = PBXBuildFile; fileRef = 16B022C641047707F95392940ACB28E0 /* util.m */; };
+		EB663E3E1EB4BB670DC29B77DB330135 /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = D174F8D29002F5F57C8955AE046D67F0 /* MASConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EE936A6838005A5ED1BC5F74BE37B7BD /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = C94D22A6A18D6FA27D61A29584145EB5 /* MASConstraint.m */; };
+		EF1F8A7B23FC62828050014ED1131DDE /* YTXMFStatement.m in Sources */ = {isa = PBXBuildFile; fileRef = 483588567361D9F9E3ADCF1F506BC980 /* YTXMFStatement.m */; };
+		F14855938BBE5E96D505831DDF39865B /* YTXMFStructDeclareTable.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D26E36FE65C4055FC32E52251B9E83F /* YTXMFStructDeclareTable.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F1B75048874B8773E5568E6D3ACA12E4 /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 9808B5E813ED87E581F170436D74F8E7 /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F32AD76BE0C806BAEB7224312726E916 /* runenv.h in Headers */ = {isa = PBXBuildFile; fileRef = C5A5DAD07EBC460D81734E8119FA2EE8 /* runenv.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F4765E6500F6463D05536ADFB2F16026 /* symdl-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A96D1525EBC44BE2D016CF1D0726497D /* symdl-dummy.m */; };
+		F672A923D446032BED887C42B55B94DE /* symdl.c in Sources */ = {isa = PBXBuildFile; fileRef = E952EB626E3C1690C33C5FBE6B80CE02 /* symdl.c */; };
+		FC3D9808ECBD1CF22FDD3F3F6E2C7186 /* YTXMFRSA.m in Sources */ = {isa = PBXBuildFile; fileRef = 2441348D62BCBE389CC842332309A46B /* YTXMFRSA.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		98D4E904DD8B7FD075C5C24EA5F0C805 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57EE331E4E7782F76F697D52ADB516F4;
+			remoteInfo = MangoFix;
+		};
+		AC2342668B74A8F4DDE65FA815DB4346 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55AF53E6C77A10ED4985E04D74A8878E;
+			remoteInfo = Masonry;
+		};
+		D74D17BB26CAB3110FF71DD461EED6AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9EBF2FAB4D5066D95CC1C7830A7E314;
+			remoteInfo = symdl;
+		};
+		F06F404541DF405DFC4107CB3A821A70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9EBF2FAB4D5066D95CC1C7830A7E314;
+			remoteInfo = symdl;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		007A8BF6498FAEC85DB330839E8C35A3 /* YTXMFStructDeclare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YTXMFStructDeclare.m; sourceTree = "<group>"; };
+		01F9D7CAB334B23E17B62B25B3AC9934 /* YTXMFFunctionDefinition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YTXMFFunctionDefinition.h; sourceTree = "<group>"; };
+		02E6E208A0EE89F1FF05AD81D07C07B4 /* ffi_arm64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ffi_arm64.h; sourceTree = "<group>"; };
+		03BCEF40CEDA6235CDB6A5EC72E10943 /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
+		04C2336DEA05A2C4A841062917BA3860 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		04E27F54B20D93EBC9320D04A36986B4 /* YTXMFClassDefinition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YTXMFClassDefinition.h; sourceTree = "<group>"; };
+		07C0783920C78E22312DECF2FE77106A /* eval.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = eval.m; sourceTree = "<group>"; };
+		0807402379DCEFFC6E99EC80502B84AC /* ffitarget_arm.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ffitarget_arm.h; sourceTree = "<group>"; };
+		08FE3360C2EA4356ADA57BC687FB3E5F /* YTXMFStatementResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YTXMFStatementResult.m; sourceTree = "<group>"; };
+		0C919AB2CEAB57CD11B2D4A39468112A /* MangoFix.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MangoFix.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		0E99BF21E4C3A3495C155BE0182E1F01 /* YTXMFContext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YTXMFContext.m; sourceTree = "<group>"; };
+		10FF56EBD93AC746678C2BEF63D6F9ED /* ffitarget_x86_64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ffitarget_x86_64.h; sourceTree = "<group>"; };
+		1195DAA1106A738C023CFDE9AF649F34 /* MangoFix.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MangoFix.debug.xcconfig; sourceTree = "<group>"; };
+		13C1077FA669417D6965C08689D4B344 /* ffi_i386.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ffi_i386.h; sourceTree = "<group>"; };
+		1546F37D787FF14BC69C815BF1728862 /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
+		15D445BD75CD55EF7D5DCC4EFCD46F0A /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
+		16B022C641047707F95392940ACB28E0 /* util.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = util.m; sourceTree = "<group>"; };
+		1796462EC07856BABF125B4AC7A61922 /* libffi.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libffi.a; path = MangoFix/libffi/libffi.a; sourceTree = "<group>"; };
+		17EFB9A1CC49230AF0CFE9A9F6891A58 /* README-CN.md */ = {isa = PBXFileReference; includeInIndex = 1; path = "README-CN.md"; sourceTree = "<group>"; };
+		1932F89AC0F720DEFC43257B063FD073 /* YTXMFTypedefTable.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YTXMFTypedefTable.m; sourceTree = "<group>"; };
+		1C7AA87795BB9385814B85C230637AFF /* YTXMangoFix.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YTXMangoFix.h; path = MangoFix/YTXMangoFix.h; sourceTree = "<group>"; };
+		1CBC802EA5000821E5099A912133A75E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		1FD5C25AD7B6AE5E8BD6048451E56512 /* Pods-MangoFixDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MangoFixDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		1FFED36A657123030ABB700256D73F15 /* libMasonry.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMasonry.a; path = libMasonry.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		204CF7AA2615637C9C6C565EB66C1A02 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
+		210CB3D5DDC2201E60423AAC4ED894E5 /* YTXMFStructDeclareTable.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YTXMFStructDeclareTable.m; sourceTree = "<group>"; };
+		2441348D62BCBE389CC842332309A46B /* YTXMFRSA.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YTXMFRSA.m; sourceTree = "<group>"; };
+		2BDB52EC9F588796E8EFFD24FB92C89D /* YTXMFExpression.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YTXMFExpression.h; sourceTree = "<group>"; };
+		2D180A21DC8B01C96FB842AD1C90137A /* YTXMFValue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YTXMFValue.m; sourceTree = "<group>"; };
+		2EA4DCE5B2F9655F6D55ECFA5A678986 /* execute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = execute.h; sourceTree = "<group>"; };
+		322939C960CEE99696E3492F16EFDB76 /* symdl.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = symdl.debug.xcconfig; sourceTree = "<group>"; };
+		32EC53F42F4F33F7ABDFD96BB2E66BD2 /* YTXMFStack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YTXMFStack.h; sourceTree = "<group>"; };
+		34244B24657AB8735F6C4B68E62C1457 /* symdl-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "symdl-prefix.pch"; sourceTree = "<group>"; };
+		342885B17E313284ED60E95EA2A4120D /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
+		352308E3C7ADBF54F30561786DFC6DD8 /* MangoFix.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MangoFix.release.xcconfig; sourceTree = "<group>"; };
+		3552B4ACDB66572CA66F98286CBB8B27 /* ffitarget_arm64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ffitarget_arm64.h; sourceTree = "<group>"; };
+		35FF64089DF19BD4D128547779C2D6C2 /* YTXMFMethodMapTable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YTXMFMethodMapTable.h; sourceTree = "<group>"; };
+		36E16C19EE53C3530D2452B0A61DEB2C /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
+		3E72F93BE0F6C2207D10F3D4397B8785 /* YTXMFInterpreter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YTXMFInterpreter.m; sourceTree = "<group>"; };
+		3F69CA3B3F88C7206B1C25AAE7B43722 /* YTXMFScopeChain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YTXMFScopeChain.h; sourceTree = "<group>"; };
+		464ACCAA0485DF77FFE2814CC784BF6A /* YTXMFExpression.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YTXMFExpression.m; sourceTree = "<group>"; };
+		46683BE5F2DB5A5F1A8861D1ACCE5DC3 /* YTXMFClassDefinition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YTXMFClassDefinition.m; sourceTree = "<group>"; };
+		483588567361D9F9E3ADCF1F506BC980 /* YTXMFStatement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YTXMFStatement.m; sourceTree = "<group>"; };
+		4AE4575D2E7B82B24B3E7A2BAB555BC8 /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
+		4E7DD184B5FEC756B0FDEE152B12E9D3 /* MangoFix-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MangoFix-dummy.m"; sourceTree = "<group>"; };
+		523021D837537F676A6C4D44500F0953 /* Pods-MangoFixDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MangoFixDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5281D191515774EE9A3A8919747351A4 /* ffi_arm.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ffi_arm.h; sourceTree = "<group>"; };
+		5ABB1EC61A853B1D48B2BC91E4FA90D8 /* YTXMFContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YTXMFContext.h; sourceTree = "<group>"; };
+		5BC1FAE218BCDC598852B82759F90F37 /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
+		5E05C58B3C23BC9CC916FBFA194AFE95 /* Pods-MangoFixDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MangoFixDemo.release.xcconfig"; sourceTree = "<group>"; };
+		62A035022128164CBEE2FFDD91226D80 /* symdl.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = symdl.release.xcconfig; sourceTree = "<group>"; };
+		63F612DF1149395EF61A9790BE0680DB /* create.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = create.h; sourceTree = "<group>"; };
+		64B91A922C4D8A50E40825FBDF415367 /* mango.l */ = {isa = PBXFileReference; includeInIndex = 1; path = mango.l; sourceTree = "<group>"; };
+		685E661A0617A616CA2FA52F422CD021 /* YTXMFWeakPropertyBox.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YTXMFWeakPropertyBox.m; sourceTree = "<group>"; };
+		69B87C7C49D6C99DE32D243CEEF004B6 /* YTXMFStaticVarTable.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YTXMFStaticVarTable.m; sourceTree = "<group>"; };
+		6A642DCB3A2EA8FE8279447B091C819A /* YTXMFInterpreter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YTXMFInterpreter.h; sourceTree = "<group>"; };
+		6C98CF6220523D0C5E18924C782D6E59 /* YTXMFStatementResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YTXMFStatementResult.h; sourceTree = "<group>"; };
+		6CAEBD51D49930A8E11BEB62B33302AC /* Pods-MangoFixDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MangoFixDemo-dummy.m"; sourceTree = "<group>"; };
+		70382D87C4813180676A318D92AE2031 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
+		71E4AFDE84C071098535CCF8115E681A /* mango.y */ = {isa = PBXFileReference; includeInIndex = 1; path = mango.y; sourceTree = "<group>"; };
+		73316C938A241F6AFE9E6157263DE7AB /* YTXMFValue+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YTXMFValue+Private.h"; sourceTree = "<group>"; };
+		763973A817A3DD2E779E068D8D22C261 /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
+		78023E2C5C4477303F83F165978688B9 /* YTXMFPropertyMapTable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YTXMFPropertyMapTable.h; sourceTree = "<group>"; };
+		783B3A6D875B748CCAA5BCFADC933D3E /* errror.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = errror.h; sourceTree = "<group>"; };
+		79B3C6F48A1328D2486FBADB43A0E3E2 /* MFDeclarationModifier.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MFDeclarationModifier.h; sourceTree = "<group>"; };
+		7A0461A4B6B4730FC8C053E71E88A9D0 /* YTXMFStructDeclare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YTXMFStructDeclare.h; sourceTree = "<group>"; };
+		7B2BDC406259B9A6E098CF6694750BE8 /* YTXMFVarDeclareChain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YTXMFVarDeclareChain.m; sourceTree = "<group>"; };
+		7D26E36FE65C4055FC32E52251B9E83F /* YTXMFStructDeclareTable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YTXMFStructDeclareTable.h; sourceTree = "<group>"; };
+		7F6A0B293297A3F107D779C3BB9B5532 /* YTXMFStack.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YTXMFStack.m; sourceTree = "<group>"; };
+		805F87ED59058ED6A62E5F07145E225A /* libPods-MangoFixDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-MangoFixDemo.a"; path = "libPods-MangoFixDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		806B6E4E4B4AB8FD4277961ECE4E0186 /* YTXMFStatement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YTXMFStatement.h; sourceTree = "<group>"; };
+		87F9A9BB6D740E49000C1C43CD06397C /* ffi_x86_64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ffi_x86_64.h; sourceTree = "<group>"; };
+		8EEED9D2B36A4073DE04EB4860EC7471 /* Masonry.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.release.xcconfig; sourceTree = "<group>"; };
+		8F7C8BEBE6424DFF12EC86873CAF27EE /* YTXMFTypeSpecifier.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YTXMFTypeSpecifier.h; sourceTree = "<group>"; };
+		9123F7E42FE54500B39C2272810C3F2E /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		94BB4936C3903C3C671F7F8402E5F8FD /* YTXMFDeclaration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YTXMFDeclaration.m; sourceTree = "<group>"; };
+		9808B5E813ED87E581F170436D74F8E7 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		99898E415EBCD5505001081705B6F4D2 /* YTXMFFunctionDefinition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YTXMFFunctionDefinition.m; sourceTree = "<group>"; };
+		9A27EEE16B2A9B26C58E4119E5FC2AFD /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E3215F62F121FDBA7FB5D6F94C5900E /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		9FC003B29767256E62E389CE3E3324E8 /* YTXMFScopeChain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YTXMFScopeChain.m; sourceTree = "<group>"; };
+		A3423DA837AE67B27ECE4D9C71711421 /* YTXMFRSA.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YTXMFRSA.h; sourceTree = "<group>"; };
+		A43F42A8549801FB02FB0EADFC002640 /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
+		A4F355B5B755ECDA4049F5FA3F26B50B /* ffitarget_i386.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ffitarget_i386.h; sourceTree = "<group>"; };
+		A96D1525EBC44BE2D016CF1D0726497D /* symdl-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "symdl-dummy.m"; sourceTree = "<group>"; };
+		B2BDACC54FEECF3258F54E79E1FCDCCF /* built-in.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "built-in.m"; sourceTree = "<group>"; };
+		B3CB898DA1B3DE7D11D06E6EF6F1B427 /* Pods-MangoFixDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MangoFixDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		B57182B5C1D75C55B817EC495EAC3443 /* create.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = create.m; sourceTree = "<group>"; };
+		B6CFCFC1D72A2F8D359E2A55DD1055DF /* YTXMFWeakPropertyBox.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YTXMFWeakPropertyBox.h; sourceTree = "<group>"; };
+		B786B645A7E02C89FC2E443E18836A3A /* ffitarget.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ffitarget.h; sourceTree = "<group>"; };
+		B8B232E3A31D2EA589B874FB988672B0 /* MangoFix-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MangoFix-prefix.pch"; sourceTree = "<group>"; };
+		BA7754EE6A31C15FF9C2B223553473C8 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		BBA3163C454D27DE537C7A5DC5B22F2C /* YTXMFPropertyMapTable.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YTXMFPropertyMapTable.m; sourceTree = "<group>"; };
+		C07E06F2B245797E24CC536E706DF3FF /* YTXMFTypedefTable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YTXMFTypedefTable.h; sourceTree = "<group>"; };
+		C1DE9C1F390E83996DED64E8A4C02256 /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
+		C3EEBAF860068BB5FEE7AC14209FA010 /* YTXMFMethodMapTable.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YTXMFMethodMapTable.m; sourceTree = "<group>"; };
+		C5A5DAD07EBC460D81734E8119FA2EE8 /* runenv.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = runenv.h; sourceTree = "<group>"; };
+		C76FB9AB96DAEB3F5B273CC8194126F4 /* YTXMFBlockBody.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YTXMFBlockBody.m; sourceTree = "<group>"; };
+		C94D22A6A18D6FA27D61A29584145EB5 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
+		CB067D877F3F73202A79A01B111EA84F /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
+		CED8E88D1DFB330744E7703D3017DF72 /* YTXMFDeclaration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YTXMFDeclaration.h; sourceTree = "<group>"; };
+		CF4410F4B04BDDE3B05AC607D550700E /* Masonry.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.debug.xcconfig; sourceTree = "<group>"; };
+		CFB2CB849F42AA2088CFA9CB245FB390 /* YTXMFValue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YTXMFValue.h; sourceTree = "<group>"; };
+		D174F8D29002F5F57C8955AE046D67F0 /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
+		D4DD2835A24A5342972809DD57916F36 /* ffi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ffi.h; sourceTree = "<group>"; };
+		D77274EBA1330162F3C81005C6060B66 /* YTXMFTypeSpecifier.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YTXMFTypeSpecifier.m; sourceTree = "<group>"; };
+		DA547C87D237C3A36B13FDF2A973A08F /* YTXMFBlock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YTXMFBlock.h; sourceTree = "<group>"; };
+		DBF77FBB04469A3C7A3678FE71A88838 /* symdl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = symdl.h; path = symdl/symdl/symdl.h; sourceTree = "<group>"; };
+		DDC4E971316C375CE56C7BDE74ACAAD5 /* execute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = execute.m; sourceTree = "<group>"; };
+		DE36E8A826A796027B6920FFA92C290E /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		DF3300F77901BE6A01183C24B8FF4812 /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
+		E1AF4952F05FC7C7E419E5371CB77F2A /* libsymdl.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libsymdl.a; path = libsymdl.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E72A3BFD0E0BC2FA7FAB4B6D44EA8486 /* util.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = util.h; sourceTree = "<group>"; };
+		E78B0F0E0250AAE0AFEE45BD8206D34B /* errror.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = errror.m; sourceTree = "<group>"; };
+		E92738F14832F080C405F487F598724A /* YTXMFStaticVarTable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YTXMFStaticVarTable.h; sourceTree = "<group>"; };
+		E952EB626E3C1690C33C5FBE6B80CE02 /* symdl.c */ = {isa = PBXFileReference; includeInIndex = 1; name = symdl.c; path = symdl/symdl/symdl.c; sourceTree = "<group>"; };
+		EA909F7B76DBD1105027CA455B9075AF /* YTXMFVarDeclareChain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YTXMFVarDeclareChain.h; sourceTree = "<group>"; };
+		F148248BB911944EF2DB8EB80D097F84 /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
+		F209D6BEA5F26E69D2D82DC2D8F1450C /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		F31AEF21465F8A2F5FFC1F58486D817F /* YTXMFBlock.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YTXMFBlock.m; sourceTree = "<group>"; };
+		F8DB7E2E10AFCC0F19F7F6B4FB1B888F /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		FB979AA0B57BF87AA21F39085D7A0863 /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
+		FC465E9DB205816A6199B97339950479 /* YTXMFBlockBody.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YTXMFBlockBody.h; sourceTree = "<group>"; };
+		FC958FE6D52AF4FDB03B8FB1F541DAA0 /* libMangoFix.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMangoFix.a; path = libMangoFix.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF88BED95EAFA174B8D6839874F8AA2E /* mf_ast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = mf_ast.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01095FBE532CF5AA0855A20BDA54BF0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19AC99F3A36A5B1D2FD78A18693774D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8E1953C8585C88C5ECB2FE4E8F3A982 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3CF084E987DC8FE26849877D3D28561 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		023D928089D4E8D1219469ED0B98218E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9A27EEE16B2A9B26C58E4119E5FC2AFD /* Masonry-dummy.m */,
+				1546F37D787FF14BC69C815BF1728862 /* Masonry-prefix.pch */,
+				CF4410F4B04BDDE3B05AC607D550700E /* Masonry.debug.xcconfig */,
+				8EEED9D2B36A4073DE04EB4860EC7471 /* Masonry.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Masonry";
+			sourceTree = "<group>";
+		};
+		03AEAA248D09F0C058A44EEECDD0E7CE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4E7DD184B5FEC756B0FDEE152B12E9D3 /* MangoFix-dummy.m */,
+				B8B232E3A31D2EA589B874FB988672B0 /* MangoFix-prefix.pch */,
+				1195DAA1106A738C023CFDE9AF649F34 /* MangoFix.debug.xcconfig */,
+				352308E3C7ADBF54F30561786DFC6DD8 /* MangoFix.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "MangoFixDemo/Pods/Target Support Files/MangoFix";
+			sourceTree = "<group>";
+		};
+		08EA246682C3356054E275787183D6C2 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8FF8EFC2DFC8DB08A1E6F5E031030398 /* Pods-MangoFixDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		388217EA7CB3E5375A4A0749DD0ADE8C /* Compiler */ = {
+			isa = PBXGroup;
+			children = (
+				63F612DF1149395EF61A9790BE0680DB /* create.h */,
+				B57182B5C1D75C55B817EC495EAC3443 /* create.m */,
+				F0C796A60989B420A48E589C39A2631F /* AST */,
+				F1EDCB8E3AF1F92853FCD4E24DBB81A7 /* lex_yacc */,
+				512E5D1381B13CF3E9408F65267FC869 /* Table */,
+			);
+			name = Compiler;
+			path = MangoFix/Compiler;
+			sourceTree = "<group>";
+		};
+		3ECE20BAA8873E44C271570D895135AD /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4CF976DCD50F87EAB198AE42CFAFDB18 /* MangoFix */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		4CF976DCD50F87EAB198AE42CFAFDB18 /* MangoFix */ = {
+			isa = PBXGroup;
+			children = (
+				1C7AA87795BB9385814B85C230637AFF /* YTXMangoFix.h */,
+				388217EA7CB3E5375A4A0749DD0ADE8C /* Compiler */,
+				9D825BBEBB59716AEA73833A1F100489 /* Error */,
+				F79C4A6DA2C6D6B47B7B0321F3E620DA /* Execute */,
+				D1473DD50AB9306D235D9901810DF110 /* Frameworks */,
+				C651AB3F11CADDA6FB913082336AEA4B /* libffi */,
+				4E5D382EA589FF2D25A120E6BD2C7954 /* Pod */,
+				03AEAA248D09F0C058A44EEECDD0E7CE /* Support Files */,
+				6C3171BA356CD35E27F710F9E6CF4080 /* Util */,
+			);
+			name = MangoFix;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		4E5D382EA589FF2D25A120E6BD2C7954 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				1CBC802EA5000821E5099A912133A75E /* LICENSE */,
+				0C919AB2CEAB57CD11B2D4A39468112A /* MangoFix.podspec */,
+				17EFB9A1CC49230AF0CFE9A9F6891A58 /* README-CN.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		512E5D1381B13CF3E9408F65267FC869 /* Table */ = {
+			isa = PBXGroup;
+			children = (
+				C07E06F2B245797E24CC536E706DF3FF /* YTXMFTypedefTable.h */,
+				1932F89AC0F720DEFC43257B063FD073 /* YTXMFTypedefTable.m */,
+			);
+			name = Table;
+			path = Table;
+			sourceTree = "<group>";
+		};
+		69C7ABADD5EB5129B90923678328EE47 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				342885B17E313284ED60E95EA2A4120D /* MASCompositeConstraint.h */,
+				15D445BD75CD55EF7D5DCC4EFCD46F0A /* MASCompositeConstraint.m */,
+				D174F8D29002F5F57C8955AE046D67F0 /* MASConstraint.h */,
+				C94D22A6A18D6FA27D61A29584145EB5 /* MASConstraint.m */,
+				4AE4575D2E7B82B24B3E7A2BAB555BC8 /* MASConstraint+Private.h */,
+				CB067D877F3F73202A79A01B111EA84F /* MASConstraintMaker.h */,
+				FB979AA0B57BF87AA21F39085D7A0863 /* MASConstraintMaker.m */,
+				204CF7AA2615637C9C6C565EB66C1A02 /* MASLayoutConstraint.h */,
+				70382D87C4813180676A318D92AE2031 /* MASLayoutConstraint.m */,
+				DF3300F77901BE6A01183C24B8FF4812 /* Masonry.h */,
+				C1DE9C1F390E83996DED64E8A4C02256 /* MASUtilities.h */,
+				03BCEF40CEDA6235CDB6A5EC72E10943 /* MASViewAttribute.h */,
+				A43F42A8549801FB02FB0EADFC002640 /* MASViewAttribute.m */,
+				36E16C19EE53C3530D2452B0A61DEB2C /* MASViewConstraint.h */,
+				763973A817A3DD2E779E068D8D22C261 /* MASViewConstraint.m */,
+				9808B5E813ED87E581F170436D74F8E7 /* NSArray+MASAdditions.h */,
+				BA7754EE6A31C15FF9C2B223553473C8 /* NSArray+MASAdditions.m */,
+				9123F7E42FE54500B39C2272810C3F2E /* NSArray+MASShorthandAdditions.h */,
+				9E3215F62F121FDBA7FB5D6F94C5900E /* NSLayoutConstraint+MASDebugAdditions.h */,
+				F209D6BEA5F26E69D2D82DC2D8F1450C /* NSLayoutConstraint+MASDebugAdditions.m */,
+				5BC1FAE218BCDC598852B82759F90F37 /* View+MASAdditions.h */,
+				F148248BB911944EF2DB8EB80D097F84 /* View+MASAdditions.m */,
+				04C2336DEA05A2C4A841062917BA3860 /* View+MASShorthandAdditions.h */,
+				DE36E8A826A796027B6920FFA92C290E /* ViewController+MASAdditions.h */,
+				F8DB7E2E10AFCC0F19F7F6B4FB1B888F /* ViewController+MASAdditions.m */,
+				023D928089D4E8D1219469ED0B98218E /* Support Files */,
+			);
+			name = Masonry;
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		6C3171BA356CD35E27F710F9E6CF4080 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				E72A3BFD0E0BC2FA7FAB4B6D44EA8486 /* util.h */,
+				16B022C641047707F95392940ACB28E0 /* util.m */,
+				A3423DA837AE67B27ECE4D9C71711421 /* YTXMFRSA.h */,
+				2441348D62BCBE389CC842332309A46B /* YTXMFRSA.m */,
+			);
+			name = Util;
+			path = MangoFix/Util;
+			sourceTree = "<group>";
+		};
+		6EF4EF7BE064C4C61B9E52339725E8AD /* RunEnv */ = {
+			isa = PBXGroup;
+			children = (
+				C5A5DAD07EBC460D81734E8119FA2EE8 /* runenv.h */,
+				DA547C87D237C3A36B13FDF2A973A08F /* YTXMFBlock.h */,
+				F31AEF21465F8A2F5FFC1F58486D817F /* YTXMFBlock.m */,
+				35FF64089DF19BD4D128547779C2D6C2 /* YTXMFMethodMapTable.h */,
+				C3EEBAF860068BB5FEE7AC14209FA010 /* YTXMFMethodMapTable.m */,
+				78023E2C5C4477303F83F165978688B9 /* YTXMFPropertyMapTable.h */,
+				BBA3163C454D27DE537C7A5DC5B22F2C /* YTXMFPropertyMapTable.m */,
+				3F69CA3B3F88C7206B1C25AAE7B43722 /* YTXMFScopeChain.h */,
+				9FC003B29767256E62E389CE3E3324E8 /* YTXMFScopeChain.m */,
+				32EC53F42F4F33F7ABDFD96BB2E66BD2 /* YTXMFStack.h */,
+				7F6A0B293297A3F107D779C3BB9B5532 /* YTXMFStack.m */,
+				6C98CF6220523D0C5E18924C782D6E59 /* YTXMFStatementResult.h */,
+				08FE3360C2EA4356ADA57BC687FB3E5F /* YTXMFStatementResult.m */,
+				E92738F14832F080C405F487F598724A /* YTXMFStaticVarTable.h */,
+				69B87C7C49D6C99DE32D243CEEF004B6 /* YTXMFStaticVarTable.m */,
+				7D26E36FE65C4055FC32E52251B9E83F /* YTXMFStructDeclareTable.h */,
+				210CB3D5DDC2201E60423AAC4ED894E5 /* YTXMFStructDeclareTable.m */,
+				CFB2CB849F42AA2088CFA9CB245FB390 /* YTXMFValue.h */,
+				2D180A21DC8B01C96FB842AD1C90137A /* YTXMFValue.m */,
+				73316C938A241F6AFE9E6157263DE7AB /* YTXMFValue+Private.h */,
+				EA909F7B76DBD1105027CA455B9075AF /* YTXMFVarDeclareChain.h */,
+				7B2BDC406259B9A6E098CF6694750BE8 /* YTXMFVarDeclareChain.m */,
+				B6CFCFC1D72A2F8D359E2A55DD1055DF /* YTXMFWeakPropertyBox.h */,
+				685E661A0617A616CA2FA52F422CD021 /* YTXMFWeakPropertyBox.m */,
+			);
+			name = RunEnv;
+			path = RunEnv;
+			sourceTree = "<group>";
+		};
+		8FF8EFC2DFC8DB08A1E6F5E031030398 /* Pods-MangoFixDemo */ = {
+			isa = PBXGroup;
+			children = (
+				523021D837537F676A6C4D44500F0953 /* Pods-MangoFixDemo-acknowledgements.markdown */,
+				1FD5C25AD7B6AE5E8BD6048451E56512 /* Pods-MangoFixDemo-acknowledgements.plist */,
+				6CAEBD51D49930A8E11BEB62B33302AC /* Pods-MangoFixDemo-dummy.m */,
+				B3CB898DA1B3DE7D11D06E6EF6F1B427 /* Pods-MangoFixDemo.debug.xcconfig */,
+				5E05C58B3C23BC9CC916FBFA194AFE95 /* Pods-MangoFixDemo.release.xcconfig */,
+			);
+			name = "Pods-MangoFixDemo";
+			path = "Target Support Files/Pods-MangoFixDemo";
+			sourceTree = "<group>";
+		};
+		9538FD9B4E4BE993B2B8682CF8393BDE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC958FE6D52AF4FDB03B8FB1F541DAA0 /* libMangoFix.a */,
+				1FFED36A657123030ABB700256D73F15 /* libMasonry.a */,
+				805F87ED59058ED6A62E5F07145E225A /* libPods-MangoFixDemo.a */,
+				E1AF4952F05FC7C7E419E5371CB77F2A /* libsymdl.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9664C09CE8E40FE10B882ED6A34668EF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A96D1525EBC44BE2D016CF1D0726497D /* symdl-dummy.m */,
+				34244B24657AB8735F6C4B68E62C1457 /* symdl-prefix.pch */,
+				322939C960CEE99696E3492F16EFDB76 /* symdl.debug.xcconfig */,
+				62A035022128164CBEE2FFDD91226D80 /* symdl.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/symdl";
+			sourceTree = "<group>";
+		};
+		9D825BBEBB59716AEA73833A1F100489 /* Error */ = {
+			isa = PBXGroup;
+			children = (
+				783B3A6D875B748CCAA5BCFADC933D3E /* errror.h */,
+				E78B0F0E0250AAE0AFEE45BD8206D34B /* errror.m */,
+			);
+			name = Error;
+			path = MangoFix/Error;
+			sourceTree = "<group>";
+		};
+		BB3B20CDDEE731E258F425903AEC73CE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				69C7ABADD5EB5129B90923678328EE47 /* Masonry */,
+				F81B06B7066836BCCB5BC6DD2C76521B /* symdl */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C651AB3F11CADDA6FB913082336AEA4B /* libffi */ = {
+			isa = PBXGroup;
+			children = (
+				D4DD2835A24A5342972809DD57916F36 /* ffi.h */,
+				5281D191515774EE9A3A8919747351A4 /* ffi_arm.h */,
+				02E6E208A0EE89F1FF05AD81D07C07B4 /* ffi_arm64.h */,
+				13C1077FA669417D6965C08689D4B344 /* ffi_i386.h */,
+				87F9A9BB6D740E49000C1C43CD06397C /* ffi_x86_64.h */,
+				B786B645A7E02C89FC2E443E18836A3A /* ffitarget.h */,
+				0807402379DCEFFC6E99EC80502B84AC /* ffitarget_arm.h */,
+				3552B4ACDB66572CA66F98286CBB8B27 /* ffitarget_arm64.h */,
+				A4F355B5B755ECDA4049F5FA3F26B50B /* ffitarget_i386.h */,
+				10FF56EBD93AC746678C2BEF63D6F9ED /* ffitarget_x86_64.h */,
+			);
+			name = libffi;
+			path = MangoFix/libffi;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				3ECE20BAA8873E44C271570D895135AD /* Development Pods */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				BB3B20CDDEE731E258F425903AEC73CE /* Pods */,
+				9538FD9B4E4BE993B2B8682CF8393BDE /* Products */,
+				08EA246682C3356054E275787183D6C2 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D1473DD50AB9306D235D9901810DF110 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1796462EC07856BABF125B4AC7A61922 /* libffi.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F0C796A60989B420A48E589C39A2631F /* AST */ = {
+			isa = PBXGroup;
+			children = (
+				FF88BED95EAFA174B8D6839874F8AA2E /* mf_ast.h */,
+				79B3C6F48A1328D2486FBADB43A0E3E2 /* MFDeclarationModifier.h */,
+				FC465E9DB205816A6199B97339950479 /* YTXMFBlockBody.h */,
+				C76FB9AB96DAEB3F5B273CC8194126F4 /* YTXMFBlockBody.m */,
+				04E27F54B20D93EBC9320D04A36986B4 /* YTXMFClassDefinition.h */,
+				46683BE5F2DB5A5F1A8861D1ACCE5DC3 /* YTXMFClassDefinition.m */,
+				CED8E88D1DFB330744E7703D3017DF72 /* YTXMFDeclaration.h */,
+				94BB4936C3903C3C671F7F8402E5F8FD /* YTXMFDeclaration.m */,
+				2BDB52EC9F588796E8EFFD24FB92C89D /* YTXMFExpression.h */,
+				464ACCAA0485DF77FFE2814CC784BF6A /* YTXMFExpression.m */,
+				01F9D7CAB334B23E17B62B25B3AC9934 /* YTXMFFunctionDefinition.h */,
+				99898E415EBCD5505001081705B6F4D2 /* YTXMFFunctionDefinition.m */,
+				6A642DCB3A2EA8FE8279447B091C819A /* YTXMFInterpreter.h */,
+				3E72F93BE0F6C2207D10F3D4397B8785 /* YTXMFInterpreter.m */,
+				806B6E4E4B4AB8FD4277961ECE4E0186 /* YTXMFStatement.h */,
+				483588567361D9F9E3ADCF1F506BC980 /* YTXMFStatement.m */,
+				7A0461A4B6B4730FC8C053E71E88A9D0 /* YTXMFStructDeclare.h */,
+				007A8BF6498FAEC85DB330839E8C35A3 /* YTXMFStructDeclare.m */,
+				8F7C8BEBE6424DFF12EC86873CAF27EE /* YTXMFTypeSpecifier.h */,
+				D77274EBA1330162F3C81005C6060B66 /* YTXMFTypeSpecifier.m */,
+			);
+			name = AST;
+			path = AST;
+			sourceTree = "<group>";
+		};
+		F1EDCB8E3AF1F92853FCD4E24DBB81A7 /* lex_yacc */ = {
+			isa = PBXGroup;
+			children = (
+				64B91A922C4D8A50E40825FBDF415367 /* mango.l */,
+				71E4AFDE84C071098535CCF8115E681A /* mango.y */,
+			);
+			name = lex_yacc;
+			path = lex_yacc;
+			sourceTree = "<group>";
+		};
+		F79C4A6DA2C6D6B47B7B0321F3E620DA /* Execute */ = {
+			isa = PBXGroup;
+			children = (
+				B2BDACC54FEECF3258F54E79E1FCDCCF /* built-in.m */,
+				07C0783920C78E22312DECF2FE77106A /* eval.m */,
+				2EA4DCE5B2F9655F6D55ECFA5A678986 /* execute.h */,
+				DDC4E971316C375CE56C7BDE74ACAAD5 /* execute.m */,
+				5ABB1EC61A853B1D48B2BC91E4FA90D8 /* YTXMFContext.h */,
+				0E99BF21E4C3A3495C155BE0182E1F01 /* YTXMFContext.m */,
+				6EF4EF7BE064C4C61B9E52339725E8AD /* RunEnv */,
+			);
+			name = Execute;
+			path = MangoFix/Execute;
+			sourceTree = "<group>";
+		};
+		F81B06B7066836BCCB5BC6DD2C76521B /* symdl */ = {
+			isa = PBXGroup;
+			children = (
+				E952EB626E3C1690C33C5FBE6B80CE02 /* symdl.c */,
+				DBF77FBB04469A3C7A3678FE71A88838 /* symdl.h */,
+				9664C09CE8E40FE10B882ED6A34668EF /* Support Files */,
+			);
+			name = symdl;
+			path = symdl;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2697A8D6B2989B073B236F7B4BF67F30 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92BF70E9D3285561EB404A7C4A4A6DEE /* MASCompositeConstraint.h in Headers */,
+				4CE091F886EC6324673EFE0AEBBEA0FE /* MASConstraint+Private.h in Headers */,
+				EB663E3E1EB4BB670DC29B77DB330135 /* MASConstraint.h in Headers */,
+				9194B58ACE900ED6BAE6AD92E24A2CFF /* MASConstraintMaker.h in Headers */,
+				7CF2AC7A3B3ED03B30C1E4ED662B0551 /* MASLayoutConstraint.h in Headers */,
+				B20A0E5D8F9BCED1A82793C4BE9E7258 /* Masonry.h in Headers */,
+				65E88072A2BDC576BFC85E67EF9FBBC6 /* MASUtilities.h in Headers */,
+				42947699890A199B08A896144A878D80 /* MASViewAttribute.h in Headers */,
+				115ACCE253A886181B55773DDC70D6ED /* MASViewConstraint.h in Headers */,
+				F1B75048874B8773E5568E6D3ACA12E4 /* NSArray+MASAdditions.h in Headers */,
+				81F811A56B6724F7E8E2D25364E595E3 /* NSArray+MASShorthandAdditions.h in Headers */,
+				C74D2E856ADC8139CD00DBD184061B23 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */,
+				46692A2E77157B00827182C8DC686F72 /* View+MASAdditions.h in Headers */,
+				A3307B8FB6EE0A049DBAE3AA4D2C6DA0 /* View+MASShorthandAdditions.h in Headers */,
+				E76935CFF4AF327F8D9A7C1935F7D900 /* ViewController+MASAdditions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7447B7B4875A6989027A58D6FCD49E7B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4F5FA1A660B0FF4D681E7E5B466702A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A58F7B2D5791D1E335A4BB3D0BC1E20 /* create.h in Headers */,
+				9DE36122416411457D84768D165D0F4A /* errror.h in Headers */,
+				5F52DD73F6CE2FC34910DF5979FD991A /* execute.h in Headers */,
+				06EC8D16A8EEEF9D523E515706D8F50B /* ffi.h in Headers */,
+				7E68E2EDFAD7AA1C1B8CA06B636333A5 /* ffi_arm.h in Headers */,
+				D493667130F7BF481C14E205576260D5 /* ffi_arm64.h in Headers */,
+				9EFCE4E26F94BBEDFCDD4C7FACEF204F /* ffi_i386.h in Headers */,
+				607FA4510A8B50AE1962AF38FEE45F3B /* ffi_x86_64.h in Headers */,
+				97777C8349288EC0BB778F8D5C10EE72 /* ffitarget.h in Headers */,
+				2294636E799926C443828131C14FA864 /* ffitarget_arm.h in Headers */,
+				A19B15424ADF00C9A7DD821D2F267BAF /* ffitarget_arm64.h in Headers */,
+				E3F8FD8197815CF3E30B1FA3031F7A77 /* ffitarget_i386.h in Headers */,
+				D3147C403D806529695298F272873EDE /* ffitarget_x86_64.h in Headers */,
+				E543B2267F83C4ED47CD1DA9B40268AD /* mf_ast.h in Headers */,
+				04CCCF9751076768D95F8CEF69FCFF98 /* MFDeclarationModifier.h in Headers */,
+				F32AD76BE0C806BAEB7224312726E916 /* runenv.h in Headers */,
+				380A25AB15969D92F2B15BB0E0493B82 /* util.h in Headers */,
+				09867FE26D37E59BD5F9AF01A27F1EC8 /* YTXMangoFix.h in Headers */,
+				4EAF7EB7BD5AE1F75C592A4FC244FBDD /* YTXMFBlock.h in Headers */,
+				1170882989CFF931BB890A852B60D358 /* YTXMFBlockBody.h in Headers */,
+				2B8A2F116C33F34BB9B16DED029E5ABE /* YTXMFClassDefinition.h in Headers */,
+				E372605D7AB188609AE65791FD26B60C /* YTXMFContext.h in Headers */,
+				857A90144B6CDD7CBD0978FBF1BD13EF /* YTXMFDeclaration.h in Headers */,
+				D5F512A23A6DB0A6DBD87009B76C94E5 /* YTXMFExpression.h in Headers */,
+				A57340523839B1F44443DB5A2A71502C /* YTXMFFunctionDefinition.h in Headers */,
+				BDF6C9F4858E5267382503B5797F736A /* YTXMFInterpreter.h in Headers */,
+				350AA5139A4E0C414BE18A30066F6CF3 /* YTXMFMethodMapTable.h in Headers */,
+				5CB451DC3C8CAB34BAEFB26F55FA4EB5 /* YTXMFPropertyMapTable.h in Headers */,
+				B03A12233DF702D024BDFAB5EEC603D0 /* YTXMFRSA.h in Headers */,
+				A84315D7EB2725CC173494674D507E49 /* YTXMFScopeChain.h in Headers */,
+				034644ABD17DA16F3375BFF22DB2D9C3 /* YTXMFStack.h in Headers */,
+				C0289F7D8D9E43FDFC9A50341E54C792 /* YTXMFStatement.h in Headers */,
+				85958191554A05045F18E8B6D7768D00 /* YTXMFStatementResult.h in Headers */,
+				54E44F63587A53E945E36ACBDCE51BBF /* YTXMFStaticVarTable.h in Headers */,
+				7DACF78649490D0EF915C99EDAFB0B67 /* YTXMFStructDeclare.h in Headers */,
+				F14855938BBE5E96D505831DDF39865B /* YTXMFStructDeclareTable.h in Headers */,
+				523B6904B9B85EB9858C52BBAEDFECC0 /* YTXMFTypedefTable.h in Headers */,
+				1EB90C612237C1C676A61B8927492C72 /* YTXMFTypeSpecifier.h in Headers */,
+				B3C2BA37EEE59032DFF47E5AB4BFCF49 /* YTXMFValue+Private.h in Headers */,
+				62F49E4516A4D6ED7FC3F9EA91871630 /* YTXMFValue.h in Headers */,
+				3EC5B53FBD8090001AC882116C719FB4 /* YTXMFVarDeclareChain.h in Headers */,
+				0D0D4218B8A8904F38BA0C5A70CE7CAE /* YTXMFWeakPropertyBox.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F09BCF3E48394FB436828E1CA742959B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B024A0B0EF33CBBD90FC9B550EAFB92C /* symdl.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1EC0E3E779EF7A09B19D2BE3AEDD4B0A /* Pods-MangoFixDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30767193027D82C58BF27137E3ECF6B1 /* Build configuration list for PBXNativeTarget "Pods-MangoFixDemo" */;
+			buildPhases = (
+				7447B7B4875A6989027A58D6FCD49E7B /* Headers */,
+				45DEA00DBF433B519C3725BF94EFF947 /* Sources */,
+				E3CF084E987DC8FE26849877D3D28561 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				410FB2B430F388041826D5FF895412C1 /* PBXTargetDependency */,
+				3D0BE3D39785BDACBAF24CB7019BEFE0 /* PBXTargetDependency */,
+				5D55224AAADC85644F0A09CB82F60A74 /* PBXTargetDependency */,
+			);
+			name = "Pods-MangoFixDemo";
+			productName = "Pods-MangoFixDemo";
+			productReference = 805F87ED59058ED6A62E5F07145E225A /* libPods-MangoFixDemo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		55AF53E6C77A10ED4985E04D74A8878E /* Masonry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B9F7EAACDDA564EC328F53A4AB8CF85 /* Build configuration list for PBXNativeTarget "Masonry" */;
+			buildPhases = (
+				2697A8D6B2989B073B236F7B4BF67F30 /* Headers */,
+				8C28688BF2BD730285E2F5DE30F8C021 /* Sources */,
+				01095FBE532CF5AA0855A20BDA54BF0B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Masonry;
+			productName = Masonry;
+			productReference = 1FFED36A657123030ABB700256D73F15 /* libMasonry.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		57EE331E4E7782F76F697D52ADB516F4 /* MangoFix */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18A754FD76DEE9CB2B6AE0710D6A8C44 /* Build configuration list for PBXNativeTarget "MangoFix" */;
+			buildPhases = (
+				B4F5FA1A660B0FF4D681E7E5B466702A /* Headers */,
+				A76467983B5C2540D77BEF719AB8638D /* Sources */,
+				19AC99F3A36A5B1D2FD78A18693774D6 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				47903993465FFE39009CE89EB0EA5BB5 /* PBXTargetDependency */,
+			);
+			name = MangoFix;
+			productName = MangoFix;
+			productReference = FC958FE6D52AF4FDB03B8FB1F541DAA0 /* libMangoFix.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A9EBF2FAB4D5066D95CC1C7830A7E314 /* symdl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6999742AD5E7B3F645503FDF550A88A6 /* Build configuration list for PBXNativeTarget "symdl" */;
+			buildPhases = (
+				F09BCF3E48394FB436828E1CA742959B /* Headers */,
+				305DD72A971EA42C2746002AF88BF8C1 /* Sources */,
+				C8E1953C8585C88C5ECB2FE4E8F3A982 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = symdl;
+			productName = symdl;
+			productReference = E1AF4952F05FC7C7E419E5371CB77F2A /* libsymdl.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 9538FD9B4E4BE993B2B8682CF8393BDE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				57EE331E4E7782F76F697D52ADB516F4 /* MangoFix */,
+				55AF53E6C77A10ED4985E04D74A8878E /* Masonry */,
+				1EC0E3E779EF7A09B19D2BE3AEDD4B0A /* Pods-MangoFixDemo */,
+				A9EBF2FAB4D5066D95CC1C7830A7E314 /* symdl */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		305DD72A971EA42C2746002AF88BF8C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4765E6500F6463D05536ADFB2F16026 /* symdl-dummy.m in Sources */,
+				F672A923D446032BED887C42B55B94DE /* symdl.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45DEA00DBF433B519C3725BF94EFF947 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7059CFA47841A7347552370118690B72 /* Pods-MangoFixDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C28688BF2BD730285E2F5DE30F8C021 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63F87C318437740E8202E4D3DD0826FA /* MASCompositeConstraint.m in Sources */,
+				EE936A6838005A5ED1BC5F74BE37B7BD /* MASConstraint.m in Sources */,
+				1E5D56FF58658F9F45723CA2940489EE /* MASConstraintMaker.m in Sources */,
+				0096B5A8BA8E4F2BFD8839D0FE7CD696 /* MASLayoutConstraint.m in Sources */,
+				D72EE0E749232B2C899702FC1C9402BB /* Masonry-dummy.m in Sources */,
+				A893FFB0F9137E298D6752729850D1D6 /* MASViewAttribute.m in Sources */,
+				572D05B146EAA3EF5530A0D0E34904A0 /* MASViewConstraint.m in Sources */,
+				B946AFB1A725D85E07F645A7EF086383 /* NSArray+MASAdditions.m in Sources */,
+				59EA578EED8BAC126FDC60C32AE11521 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				C7920681F0164686C56327ED3C6AAC58 /* View+MASAdditions.m in Sources */,
+				C05FC6699632FE712174ED875A605410 /* ViewController+MASAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A76467983B5C2540D77BEF719AB8638D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB3EE6BCC7C067A5A45461F39A75D088 /* built-in.m in Sources */,
+				55A765019AB30D65AAF7EEA3DEFED965 /* create.m in Sources */,
+				740D6D43778E7B106A520A3612974161 /* errror.m in Sources */,
+				61081D98AF51FA65E3CB7E46C7C1E84C /* eval.m in Sources */,
+				A663A0776A36140C4D7FD36683DE502B /* execute.m in Sources */,
+				06BE9FE5D22C3106ADF3340FD3C7A199 /* mango.l in Sources */,
+				632459AD839A6B80C960CE82DB6E96EA /* mango.y in Sources */,
+				1AA20452989F0F39709271615DDF85B5 /* MangoFix-dummy.m in Sources */,
+				E9FE086E354082AE120747F979112927 /* util.m in Sources */,
+				9C8AE116DF10AA83D39F671917C485FF /* YTXMFBlock.m in Sources */,
+				98F0910C2DB5FB6CC47240BCADC788EB /* YTXMFBlockBody.m in Sources */,
+				88276688339C17ABE796C29AB7424F1F /* YTXMFClassDefinition.m in Sources */,
+				BE1EB6FA3E32DD0AD8EE2A6C8901DAFC /* YTXMFContext.m in Sources */,
+				470BCD4CE4D748F9B00BBBB7D4D1CCB5 /* YTXMFDeclaration.m in Sources */,
+				BBD2F3023FDE2667D706BDD6D5E2BDB8 /* YTXMFExpression.m in Sources */,
+				27CE8CE87785A370A55B201694068B95 /* YTXMFFunctionDefinition.m in Sources */,
+				6C21AC39732FF58F74C78A7EB596E55F /* YTXMFInterpreter.m in Sources */,
+				B0FBD2BA27A0795737C2CCD79FFA166B /* YTXMFMethodMapTable.m in Sources */,
+				0966C8D06BC958F186D2541E69DDE6F3 /* YTXMFPropertyMapTable.m in Sources */,
+				FC3D9808ECBD1CF22FDD3F3F6E2C7186 /* YTXMFRSA.m in Sources */,
+				6C1C7FDB8BBBD440BF9F539BB37BDE45 /* YTXMFScopeChain.m in Sources */,
+				B4D410CC31ED9C9674A20C50AE2FE983 /* YTXMFStack.m in Sources */,
+				EF1F8A7B23FC62828050014ED1131DDE /* YTXMFStatement.m in Sources */,
+				4140A03E141E8E382D6978AD7B9090AE /* YTXMFStatementResult.m in Sources */,
+				B40FD60442FEA077A3A48DF0ED13D884 /* YTXMFStaticVarTable.m in Sources */,
+				DC0ADC48F82A665A57E30EF2EEE3880F /* YTXMFStructDeclare.m in Sources */,
+				96E0387B0683C11DA34CF8A96028B002 /* YTXMFStructDeclareTable.m in Sources */,
+				7582B696DD2FAF82B2B7A3B7BF536097 /* YTXMFTypedefTable.m in Sources */,
+				1845C85C57DFF48059C4AF9773B419F7 /* YTXMFTypeSpecifier.m in Sources */,
+				87592E5630F602C5D8C021D76A2CAF49 /* YTXMFValue.m in Sources */,
+				B7A1C36FE202FE88D063F519B250B355 /* YTXMFVarDeclareChain.m in Sources */,
+				8F5C8031969363CF961254AB45075F94 /* YTXMFWeakPropertyBox.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3D0BE3D39785BDACBAF24CB7019BEFE0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Masonry;
+			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
+			targetProxy = AC2342668B74A8F4DDE65FA815DB4346 /* PBXContainerItemProxy */;
+		};
+		410FB2B430F388041826D5FF895412C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MangoFix;
+			target = 57EE331E4E7782F76F697D52ADB516F4 /* MangoFix */;
+			targetProxy = 98D4E904DD8B7FD075C5C24EA5F0C805 /* PBXContainerItemProxy */;
+		};
+		47903993465FFE39009CE89EB0EA5BB5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = symdl;
+			target = A9EBF2FAB4D5066D95CC1C7830A7E314 /* symdl */;
+			targetProxy = F06F404541DF405DFC4107CB3A821A70 /* PBXContainerItemProxy */;
+		};
+		5D55224AAADC85644F0A09CB82F60A74 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = symdl;
+			target = A9EBF2FAB4D5066D95CC1C7830A7E314 /* symdl */;
+			targetProxy = D74D17BB26CAB3110FF71DD461EED6AA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		196DFA3E4A09A28224918543529A1885 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		2ACFFBB8C40AA93E779FA6B5D9750B08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62A035022128164CBEE2FFDD91226D80 /* symdl.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/symdl/symdl-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = symdl;
+				PRODUCT_NAME = symdl;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		77F95AFBD09BFFB967AD5D018837B778 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 352308E3C7ADBF54F30561786DFC6DD8 /* MangoFix.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/MangoFix/MangoFix-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = MangoFix;
+				PRODUCT_NAME = MangoFix;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		81F7DAAB613F291C3632B19647E0E2A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3CB898DA1B3DE7D11D06E6EF6F1B427 /* Pods-MangoFixDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8A4C3A693EA2CD69410BB788C4AA447D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1195DAA1106A738C023CFDE9AF649F34 /* MangoFix.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/MangoFix/MangoFix-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = MangoFix;
+				PRODUCT_NAME = MangoFix;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8AEEA5CC30001CB70A788717A32DBAB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8EEED9D2B36A4073DE04EB4860EC7471 /* Masonry.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = Masonry;
+				PRODUCT_NAME = Masonry;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B42B2E31A94AA78D7205919BA3FE6265 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 322939C960CEE99696E3492F16EFDB76 /* symdl.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/symdl/symdl-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = symdl;
+				PRODUCT_NAME = symdl;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D7326DE7DFE0FE9A83581A8538ED90A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E05C58B3C23BC9CC916FBFA194AFE95 /* Pods-MangoFixDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F99870D874C7FA838E84D9C55C010CF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF4410F4B04BDDE3B05AC607D550700E /* Masonry.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = Masonry;
+				PRODUCT_NAME = Masonry;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0B9F7EAACDDA564EC328F53A4AB8CF85 /* Build configuration list for PBXNativeTarget "Masonry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F99870D874C7FA838E84D9C55C010CF1 /* Debug */,
+				8AEEA5CC30001CB70A788717A32DBAB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18A754FD76DEE9CB2B6AE0710D6A8C44 /* Build configuration list for PBXNativeTarget "MangoFix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A4C3A693EA2CD69410BB788C4AA447D /* Debug */,
+				77F95AFBD09BFFB967AD5D018837B778 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30767193027D82C58BF27137E3ECF6B1 /* Build configuration list for PBXNativeTarget "Pods-MangoFixDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81F7DAAB613F291C3632B19647E0E2A4 /* Debug */,
+				D7326DE7DFE0FE9A83581A8538ED90A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				196DFA3E4A09A28224918543529A1885 /* Debug */,
+				B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6999742AD5E7B3F645503FDF550A88A6 /* Build configuration list for PBXNativeTarget "symdl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B42B2E31A94AA78D7205919BA3FE6265 /* Debug */,
+				2ACFFBB8C40AA93E779FA6B5D9750B08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

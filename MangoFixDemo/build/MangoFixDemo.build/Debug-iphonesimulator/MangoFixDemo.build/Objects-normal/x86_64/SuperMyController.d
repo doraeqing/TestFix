@@ -1,0 +1,19 @@
+dependencies: \
+  /Users/ynwang/Desktop/Mango-master-4/MangoFixDemo/MangoFixDemo/SuperMyController.m \
+  /Users/ynwang/Desktop/Mango-master-4/MangoFixDemo/MangoFixDemo/SuperMyController.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/usr/include/mach-o/dyld.modulemap \
+  /Users/ynwang/Desktop/Mango-master-4/MangoFixDemo/Pods/Headers/Public/Masonry/Masonry.h \
+  /Users/ynwang/Desktop/Mango-master-4/MangoFixDemo/Pods/Headers/Public/Masonry/MASUtilities.h \
+  /Users/ynwang/Desktop/Mango-master-4/MangoFixDemo/Pods/Headers/Public/Masonry/View+MASAdditions.h \
+  /Users/ynwang/Desktop/Mango-master-4/MangoFixDemo/Pods/Headers/Public/Masonry/MASConstraintMaker.h \
+  /Users/ynwang/Desktop/Mango-master-4/MangoFixDemo/Pods/Headers/Public/Masonry/MASConstraint.h \
+  /Users/ynwang/Desktop/Mango-master-4/MangoFixDemo/Pods/Headers/Public/Masonry/MASViewAttribute.h \
+  /Users/ynwang/Desktop/Mango-master-4/MangoFixDemo/Pods/Headers/Public/Masonry/View+MASShorthandAdditions.h \
+  /Users/ynwang/Desktop/Mango-master-4/MangoFixDemo/Pods/Headers/Public/Masonry/ViewController+MASAdditions.h \
+  /Users/ynwang/Desktop/Mango-master-4/MangoFixDemo/Pods/Headers/Public/Masonry/NSArray+MASAdditions.h \
+  /Users/ynwang/Desktop/Mango-master-4/MangoFixDemo/Pods/Headers/Public/Masonry/NSArray+MASShorthandAdditions.h \
+  /Users/ynwang/Desktop/Mango-master-4/MangoFixDemo/Pods/Headers/Public/Masonry/MASCompositeConstraint.h \
+  /Users/ynwang/Desktop/Mango-master-4/MangoFixDemo/Pods/Headers/Public/Masonry/MASViewConstraint.h \
+  /Users/ynwang/Desktop/Mango-master-4/MangoFixDemo/Pods/Headers/Public/Masonry/MASLayoutConstraint.h \
+  /Users/ynwang/Desktop/Mango-master-4/MangoFixDemo/Pods/Headers/Public/Masonry/NSLayoutConstraint+MASDebugAdditions.h

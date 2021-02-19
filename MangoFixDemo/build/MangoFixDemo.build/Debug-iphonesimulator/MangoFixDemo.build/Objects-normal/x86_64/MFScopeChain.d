@@ -1,0 +1,31 @@
+dependencies: \
+  /Users/ynwang/Desktop/Mango-master-4/MangoFixDemo/MangoFix/Execute/RunEnv/MFScopeChain.m \
+  /Users/ynwang/Desktop/Mango-master-4/MangoFixDemo/MangoFix/Execute/RunEnv/MFScopeChain.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/usr/include/mach-o/dyld.modulemap \
+  /Users/ynwang/Desktop/Mango-master-4/MangoFixDemo/MangoFix/Execute/RunEnv/MFValue.h \
+  /Users/ynwang/Desktop/Mango-master-4/MangoFixDemo/MangoFix/Compiler/AST/MFDeclarationModifier.h \
+  /Users/ynwang/Desktop/Mango-master-4/MangoFixDemo/MangoFix/Execute/RunEnv/MFBlock.h \
+  /Users/ynwang/Desktop/Mango-master-4/MangoFixDemo/MangoFix/Compiler/AST/mf_ast.h \
+  /Users/ynwang/Desktop/Mango-master-4/MangoFixDemo/MangoFix/Compiler/AST/MFInterpreter.h \
+  /Users/ynwang/Desktop/Mango-master-4/MangoFixDemo/MangoFix/Compiler/AST/MFClassDefinition.h \
+  /Users/ynwang/Desktop/Mango-master-4/MangoFixDemo/MangoFix/Compiler/AST/MFFunctionDefinition.h \
+  /Users/ynwang/Desktop/Mango-master-4/MangoFixDemo/MangoFix/Compiler/AST/MFTypeSpecifier.h \
+  /Users/ynwang/Desktop/Mango-master-4/MangoFixDemo/MangoFix/Compiler/AST/MFExpression.h \
+  /Users/ynwang/Desktop/Mango-master-4/MangoFixDemo/MangoFix/Compiler/AST/MFStatement.h \
+  /Users/ynwang/Desktop/Mango-master-4/MangoFixDemo/MangoFix/Compiler/AST/MFDeclaration.h \
+  /Users/ynwang/Desktop/Mango-master-4/MangoFixDemo/MangoFix/Compiler/AST/MFStructDeclare.h \
+  /Users/ynwang/Desktop/Mango-master-4/MangoFixDemo/MangoFix/Compiler/AST/MFBlockBody.h \
+  /Users/ynwang/Desktop/Mango-master-4/MangoFixDemo/MangoFix/Compiler/Table/MFTypedefTable.h \
+  /Users/ynwang/Desktop/Mango-master-4/MangoFixDemo/MangoFix/Error/errror.h \
+  /Users/ynwang/Desktop/Mango-master-4/MangoFixDemo/MangoFix/Execute/RunEnv/MFValue+Private.h \
+  /Users/ynwang/Desktop/Mango-master-4/MangoFixDemo/MangoFix/MangoFix.h \
+  /Users/ynwang/Desktop/Mango-master-4/MangoFixDemo/MangoFix/Execute/MFContext.h \
+  /Users/ynwang/Desktop/Mango-master-4/MangoFixDemo/MangoFix/Util/MFRSA.h \
+  /Users/ynwang/Desktop/Mango-master-4/MangoFixDemo/MangoFix/Execute/RunEnv/MFPropertyMapTable.h \
+  /Users/ynwang/Desktop/Mango-master-4/MangoFixDemo/MangoFix/Execute/RunEnv/MFWeakPropertyBox.h \
+  /Users/ynwang/Desktop/Mango-master-4/MangoFixDemo/MangoFix/Util/util.h \
+  /Users/ynwang/Desktop/Mango-master-4/MangoFixDemo/MangoFix/libffi/ffi.h \
+  /Users/ynwang/Desktop/Mango-master-4/MangoFixDemo/MangoFix/libffi/ffi_x86_64.h \
+  /Users/ynwang/Desktop/Mango-master-4/MangoFixDemo/MangoFix/libffi/ffitarget.h \
+  /Users/ynwang/Desktop/Mango-master-4/MangoFixDemo/MangoFix/libffi/ffitarget_x86_64.h
